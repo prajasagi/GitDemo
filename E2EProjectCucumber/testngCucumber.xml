@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+   <test name="Cucumber Salesforce Automation">
+    <classes>
+      <class name="cucumberOptions.SF_TestRunner"/>
+      
+          </classes>
+      </test>
+      
+       <test name="Cucumber Netflix Automation">
+    <classes>
+      <class name="cucumberOptions.NF_TestRunner"/>
+          </classes>
+      </test>
+      
+  
+   <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+package cucumberOptions;
+
+import cucumber.api.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+//@RunWith(Cucumber.class)
+@CucumberOptions(
+		features="src/test/java/Netflix_features",
+		glue="Netflix_stepDefinition")
+
+public class NF_TestRunner extends AbstractTestNGCucumberTests{
+
+
+
+}
